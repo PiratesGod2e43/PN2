@@ -1,0 +1,1 @@
+services:\n  piratesnodes:\n    build: .\n    restart: unless-stopped\n    ports:\n      - "3000:3000"\n
